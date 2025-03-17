@@ -1,9 +1,10 @@
 import "./barra.css";
-const Bar = ({ title }) => {
+
+const Barra = ({ title, onClose }) => {
   return (
     <div className="bar">
       <p>{title}</p>
-      <button className="shadow">
+      <button id="closeBtn" className="shadow" onClick={onClose}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="8px"
@@ -20,4 +21,4 @@ const Bar = ({ title }) => {
   );
 };
 
-export default Bar;
+export default Barra;

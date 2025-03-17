@@ -1,7 +1,7 @@
 .square {
   width: 70%;
-  height: 76%;
-  background-color: #f7f7ea;
+  height: 75%;
+  background-color: #f7f7dd;
   position: absolute;
   top: 20%;
   left: 2%;
@@ -9,6 +9,49 @@
     inset -1px -1px #85898d, inset 2px 2px black;
   padding: 10px;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.square::-webkit-scrollbar {
+  display: none;
+}
+
+.square {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+strong {
+  color: black;
+  font-size: large;
+}
+
+.tarefaItem {
+  font-size: 18px;
+  padding: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: black;
+}
+
+.tarefaItem span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.btnExcluir {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.iconExcluir {
+  width: 20px;
+  height: 20px;
 }
 
 .inputContainer {
@@ -26,10 +69,11 @@
   font-size: 16px;
   color: black;
   padding: 8px;
-  background-color: #f7f7ea;
+  background-color: #f7f7dd;
   box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px #c2c6ca,
     inset -1px -1px #85898d, inset 2px 2px black;
 }
+
 .inputTarefa:focus {
   outline: none;
   background-color: #e0e0d2;

@@ -1,0 +1,39 @@
+.welcome {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-family: "Microsoft Sans Serif", sans-serif;
+  background: #c2c6ca;
+  font-size: 12px;
+  width: 500px;
+  height: 190px;
+  cursor: grab;
+  box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #c2c6ca,
+    inset -1px -1px #85898d, inset 2px 2px white;
+}
+
+.welcome:active {
+  cursor: grabbing;
+}
+
+.welcome-text {
+  text-align: justify;
+  margin: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+img {
+  width: 18%;
+  height: 28%;
+  margin: 2%;
+  align-self: center;
+}
+
+a {
+  align-content: justify;
+  margin-left: 3%;
+}
