@@ -1,0 +1,26 @@
+.icons-dropdown {
+  width: 100%;
+  padding: 5px;
+  background-color: #c2c6ca;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px black,
+    inset -1px -1px #85898d;
+}
+
+.icons-dropdown:focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px black,
+    inset -1px -1px #85898d;
+}
+
+.icons {
+  width: 24%;
+  position: absolute;
+  top: 36%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

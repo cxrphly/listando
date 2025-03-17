@@ -1,0 +1,53 @@
+.square {
+  width: 70%;
+  height: 76%;
+  background-color: #f7f7ea;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px #c2c6ca,
+    inset -1px -1px #85898d, inset 2px 2px black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.inputContainer {
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputTarefa {
+  width: calc(100% - 40px);
+  font-size: 16px;
+  color: black;
+  padding: 8px;
+  background-color: #f7f7ea;
+  box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px #c2c6ca,
+    inset -1px -1px #85898d, inset 2px 2px black;
+}
+.inputTarefa:focus {
+  outline: none;
+  background-color: #e0e0d2;
+  box-shadow: 0.5px 0.5px 0 0.5px white, inset 1px 1px black,
+    inset -1px -1px #85898d;
+}
+
+.btnTarefa {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.btnTarefa .icon {
+  width: 24px;
+  height: 24px;
+}
