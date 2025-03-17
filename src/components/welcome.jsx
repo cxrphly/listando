@@ -46,7 +46,7 @@ const Welcome = ({ onClose }) => {
       <p className="welcome-text">
         Olá! Este é meu primeiro projeto com Vite + React, feito para ajudar a
         anotar e organizar ideias de forma prática. Inspirei-me em softwares
-        antigos, adicionando arte ASCII e Kaomojis. Espero que seja útil!
+        antigos, adicionando arte ASCII e Kaomojis. Espero que seja útil!!
       </p>
       <a href="https://github.com/cxrphly/lista.ai" target="_blank">
         github
