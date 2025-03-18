@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import Barra from "./Barra";
 import "./welcome.css";
+import wave from "../assets/wave-4x.webp";
 
 const Welcome = ({ onClose }) => {
   const welcomeRef = useRef(null);
@@ -41,8 +42,7 @@ const Welcome = ({ onClose }) => {
       onMouseUp={handleMouseUp}
     >
       <Barra title="Olá!" onClose={onClose} />
-      <img src="../src/assets/wave-4x.webp" />
-
+      <img src={wave} alt="Wave" />
       <p className="welcome-text">
         Olá! Este é meu primeiro projeto com Vite + React, feito para ajudar a
         anotar e organizar ideias de forma prática. Inspirei-me em softwares
