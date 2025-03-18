@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./resolutionInput.css";
+import hi from "../src/assets/aga-4x.webp";
 
 const ResolutionInput = ({ onResize }) => {
   const [width, setWidth] = useState("");
@@ -16,7 +17,7 @@ const ResolutionInput = ({ onResize }) => {
 
   return (
     <div className="inputRes">
-      <img src="../src/assets/aga-4x.webp" alt="hi" />
+      <img src={hi} />
       <h3>Folha em milimetros.</h3>
       <input
         id="input_width"

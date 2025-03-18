@@ -42,7 +42,7 @@ const Welcome = ({ onClose }) => {
       onMouseUp={handleMouseUp}
     >
       <Barra title="Olá!" onClose={onClose} />
-      <img src={wave} alt="Wave" />
+      <img src={wave} alt="olá" />
       <p className="welcome-text">
         Olá! Este é meu primeiro projeto com Vite + React, feito para ajudar a
         anotar e organizar ideias de forma prática. Inspirei-me em softwares
