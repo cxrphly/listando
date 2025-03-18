@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./resolutionInput.css";
-import hi from "../src/assets/aga-4x.webp";
+import hi from "../assets/aga-4x.webp";
 
 const ResolutionInput = ({ onResize }) => {
   const [width, setWidth] = useState("");
